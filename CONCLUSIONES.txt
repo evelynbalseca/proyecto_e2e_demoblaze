@@ -1,0 +1,19 @@
+
+
+PROYECTO DEMOBLAZE - EVELYN BALSECA
+
+
+CONCLUSIONES
+
+1. Las pruebas automatizadas se ejecutaron de manera correcta en un tiempo de 41segundos.
+2. La estructura del proyecto permite reutilizar en otros proyectos de pruebas automatizadas.
+3. Para garantizar la correcta ejecución de las pruebas automatizadas en cualquier navegador, es indispensable contar con el driver correspondiente a cada uno  e implementarlos en el proyecto, de manera que la automatización pueda ejecutarse sin inconvenientes.
+4. Es fundamental conocer los principios BDD para definir escenarios en lenguaje natural entendible para los equipos, lo que facilita la creacion de casos de pruebas en archivos .feature.
+
+
+HALLAZGOS
+
+1. Las versiones de las dependencias deben ser compatibles con el IDE de desarrollo en este caso con IntelliJ IDE.
+2. El chrome driver que se va a usar dentro del proyecto debe ser conforme la version del navegador chrome en el cual se va ha ejecutar las pruebas automatizadas.
+3. Se evidencio que en la ejecucion entre los casos de pruebas era demasiado rapido, por lo que impedia la interaccion con los elementos de las paginas que se presentaban, para mitigar este inconveniente se implemento tiempos de espera entre cada caso de prueba.
+
